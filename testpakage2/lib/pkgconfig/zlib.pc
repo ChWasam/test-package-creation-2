@@ -1,0 +1,13 @@
+prefix=/Users/wasamchaudhry/Study/test-package-creation-2/testpakage2
+exec_prefix=/Users/wasamchaudhry/Study/test-package-creation-2/testpakage2
+libdir=/Users/wasamchaudhry/Study/test-package-creation-2/testpakage2/lib
+sharedlibdir=/Users/wasamchaudhry/Study/test-package-creation-2/testpakage2/lib
+includedir=/Users/wasamchaudhry/Study/test-package-creation-2/testpakage2/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
