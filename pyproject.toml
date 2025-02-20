@@ -1,0 +1,28 @@
+[build-system]
+# This section tells build tools what is required to build your package.
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Basic metadata
+name = "my-test-awesome-project"
+version = "0.1.0"
+description = "A brief description of my test awesome project"
+readme = "README.md"
+# You can point to a file or include inline text for your license.
+license = { file = "LICENSE" }
+
+# Author information
+authors = [
+  { name = "Chaudhry", email = "ch.wasam@gmail.com" }
+]
+
+# Project dependencies
+dependencies = [
+"langchain"
+]
+
+# Optional: URL links related to your project
+[project.urls]
+Homepage = "https://example.com"
+Repository = "https://github.com/example/my-awesome-project"

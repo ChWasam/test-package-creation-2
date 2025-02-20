@@ -1,3 +1,15 @@
+Metadata-Version: 2.2
+Name: my-test-awesome-project
+Version: 0.1.0
+Summary: A brief description of my test awesome project
+Author: Chaudhry
+Author-email: Chaudhry <ch.wasam@gmail.com>
+Project-URL: Homepage, https://example.com
+Project-URL: Repository, https://github.com/example/my-awesome-project
+Description-Content-Type: text/markdown
+Requires-Dist: langchain
+Dynamic: author
+
 # test-package-creation-2
 
 Lecture on setting up project as pakage and uploading to pypi using project.toml file
